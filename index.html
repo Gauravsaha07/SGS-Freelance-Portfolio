@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>GAURAV SAHA | Freelance Full Stack Developer &amp; AI Web Solutions</title>
+  <meta name="description"
+    content="Portfolio of GAURAV SAHA — Freelance Full Stack Developer specializing in modern business websites, AI-powered web solutions, and personalized surprise websites.">
+  <meta name="keywords"
+    content="GAURAV SAHA, Freelance Full Stack Developer, Web Developer, AI Websites, MERN Stack, Gemini API, Personalized Gift Websites, Ujjain">
+  <meta name="author" content="GAURAV SAHA">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GAURAV SAHA | Freelance Full Stack Developer">
+  <meta property="og:description"
+    content="Building modern websites and AI-powered web solutions. Open for freelance projects and collaborations.">
+  <meta property="og:url" content="https://sgs-my-portfolio.vercel.app/">
+  <meta name="theme-color" content="#1E9BE0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <a href="#home" class="nav-logo" aria-label="GAURAV SAHA - Home">
+        <span class="logo-accent">/GS</span>
+        <span class="logo-text">GAURAV SAHA</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="home">
+      <div class="hero-bg-shape hero-bg-shape-large" aria-hidden="true"></div>
+      <div class="hero-bg-shape hero-bg-shape-small" aria-hidden="true"></div>
+
+      <div class="hero-container">
+        <div class="hero-content">
+
+          <div class="hero-label-wrap">
+            <span class="hero-label">HELLO, MY NAME IS</span>
+            <div class="hero-label-line"></div>
+          </div>
+
+          <h1 class="hero-name">GAURAV SAHA</h1>
+
+          <h2 class="hero-role">Freelance Full Stack Developer</h2>
+
+          <div class="hero-quick-info">
+            <a href="mailto:gauravsaha362@gmail.com" class="quick-info-item">
+              <span class="quick-info-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+              </span>
+              <span class="quick-info-text">GAURAVSAHA362@GMAIL.COM</span>
+            </a>
+
+            <a href="tel:+918839014534" class="quick-info-item">
+              <span class="quick-info-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                  </path>
+                </svg>
+              </span>
+              <span class="quick-info-text">+91 88390 14534</span>
+            </a>
+          </div>
+
+          <div class="hero-typewriter-box">
+            <span class="typewriter-prefix">I am&nbsp;</span>
+            <span class="typewriter-text" id="typewriterText"></span>
+            <span class="typewriter-cursor" aria-hidden="true">|</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#portfolio" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Hire Me</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card">
+
+            <div class="profile-backdrop-shape" aria-hidden="true"></div>
+
+            <div class="profile-circle img-placeholder-container">
+              <img src="./assets/images/sgs-image2.png" alt="GAURAV SAHA - Freelance Full Stack Developer"
+                class="profile-img fallback-image" id="heroProfileImg" loading="eager">
+              <div class="img-fallback-placeholder" aria-hidden="true">
+                <div class="placeholder-avatar-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="placeholder-caption">Profile Photo Slot</span>
+              </div>
+            </div>
+            <div class="profile-status-badge">
+              <span class="status-dot"></span>
+              <span class="status-text">Available for Projects 🚀</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-container">
+
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">WHO I AM</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-title-line"></div>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="about-narrative reveal-on-scroll">
+            <h3 class="about-heading">
+              Building modern web experiences with <span class="highlight-text">passion, intelligence &amp;
+                precision.</span>
+            </h3>
+
+            <p class="about-paragraph">
+              Hello! I'm <strong>GAURAV SAHA</strong>, a <strong>Freelance Full Stack Developer</strong> based in
+              Ujjain, Madhya Pradesh. I specialize in designing and engineering high-impact, modern web solutions
+              ranging from production-ready web applications to intelligent AI-driven platforms.
+            </p>
+
+            <p class="about-paragraph">
+              Currently pursuing my <strong>BCA (Bachelor of Computer Applications)</strong> at Vikram University
+              alongside advanced full-stack &amp; AI specialization, I take on paid freelance projects and
+              collaborations. My core specialty spans two exciting worlds:
+            </p>
+
+            <div class="specialty-boxes">
+              <div class="specialty-card">
+                <div class="specialty-icon">🎁</div>
+                <div class="specialty-info">
+                  <h4>Personalized Emotional Gift Websites</h4>
+                  <p>Heartfelt surprises for birthdays, anniversaries, and milestones featuring interactive timelines,
+                    photo galleries, reason cards, love letters, and surprise endings.</p>
+                </div>
+              </div>
+
+              <div class="specialty-card">
+                <div class="specialty-icon">⚡</div>
+                <div class="specialty-info">
+                  <h4>Custom Websites for Brands &amp; Startups</h4>
+                  <p>Fast, responsive, high-converting digital presence built with scalable architecture, clean code,
+                    and practical Generative AI capabilities.</p>
+                </div>
+              </div>
+            </div>
+
+            <p class="about-paragraph">
+              I believe in clean architecture, transparent communication, and creating websites that don't just look
+              stunning — they solve real problems and create memorable experiences.
+            </p>
+
+            <div class="about-metrics">
+              <div class="metric-item">
+                <span class="metric-number">100%</span>
+                <span class="metric-label">Custom Handcrafted Code</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-number">Fast</span>
+                <span class="metric-label">Turnaround &amp; Communication</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-number">AI + Web</span>
+                <span class="metric-label">Modern Intelligent Tech</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-skills-col reveal-on-scroll">
+            <div class="skills-card">
+              <div class="skills-card-header">
+                <div class="skills-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="skills-title">Technical Expertise</h3>
+                  <p class="skills-subtitle">Technologies and tools I use to bring ideas to life</p>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <h4 class="skill-group-title">Frontend Engineering</h4>
+                <div class="skill-chips">
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>HTML5
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>CSS3 / Modern Flexbox &amp; Grid
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>JavaScript (ES6+)
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>TypeScript
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>React.js
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Next.js
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Responsive Web Design
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Tailwind CSS
+                  </span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <h4 class="skill-group-title">Backend &amp; Databases</h4>
+                <div class="skill-chips">
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Node.js
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Express.js
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>RESTful APIs
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>TanStack Queries
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Docker
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>MongoDB &amp; Mongoose
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Authentication &amp; Security
+                  </span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <h4 class="skill-group-title">AI Integration &amp; Tooling</h4>
+                <div class="skill-chips">
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Google Gemini API
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Web Speech API (Voice AI)
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Git &amp; GitHub
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>Vercel &amp; Cloud Deployment
+                  </span>
+                  <span class="skill-chip">
+                    <span class="skill-chip-dot"></span>OnRender Deployment
+                  </span>
+                </div>
+              </div>
+
+              <div class="skills-footer-note">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="info-icon">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                <span>Always learning and integrating new tools into client projects.</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section class="section services-section" id="services">
+      <div class="section-container">
+
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">WHAT I OFFER</span>
+          <h2 class="section-title">My Services</h2>
+          <div class="section-title-line"></div>
+          <p class="section-subtitle">Tailored digital solutions built from scratch with modern technologies, high
+            performance, and thoughtful user experiences.</p>
+        </div>
+
+        <div class="services-grid">
+
+          <div class="service-card reveal-on-scroll">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z">
+                </path>
+                <path
+                  d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
+                </path>
+                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Business / Brand / Startup Websites</h3>
+            <p class="service-description">
+              Custom, high-converting websites designed to showcase your unique value proposition, establish
+              credibility, and generate inquiries. Fully mobile-responsive, lightning-fast, and search-engine optimized.
+            </p>
+            <ul class="service-checklist">
+              <li>Responsive across all devices</li>
+              <li>SEO friendly &amp; fast loading</li>
+              <li>Brand-aligned visual design</li>
+              <li>Clean call-to-actions &amp; contact forms</li>
+            </ul>
+          </div>
+
+          <div class="service-card reveal-on-scroll">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83">
+                </path>
+              </svg>
+            </div>
+            <h3 class="service-title">AI-Powered Web Solutions</h3>
+            <p class="service-description">
+              Intelligent web applications integrating Generative AI APIs (such as Google Gemini), automated workflows,
+              real-time speech recognition, and custom smart assistants to streamline complex user tasks.
+            </p>
+            <ul class="service-checklist">
+              <li>Google Gemini API integration</li>
+              <li>Voice &amp; speech-to-text recognition</li>
+              <li>Interactive smart feedback systems</li>
+              <li>Automated content &amp; question engines</li>
+            </ul>
+          </div>
+
+          <div class="service-card reveal-on-scroll">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Full Stack Web Applications</h3>
+            <p class="service-description">
+              End-to-end web applications with modern frontend interfaces, reliable RESTful API backends (Node.js &amp;
+              Express), database design (MongoDB), secure user flows, and smooth cloud deployment.
+            </p>
+            <ul class="service-checklist">
+              <li>Clean frontend architecture</li>
+              <li>REST API development &amp; integration</li>
+              <li>Database modeling &amp; persistence</li>
+              <li>Deployment on Render &amp; Vercel</li>
+            </ul>
+          </div>
+
+          <div class="service-card service-card-highlight reveal-on-scroll">
+            <div class="service-badge">Client Favorite</div>
+            <div class="service-icon-box service-icon-heart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                </path>
+              </svg>
+            </div>
+            <h3 class="service-title">Personalized Surprise Websites 💖</h3>
+            <p class="service-description">
+              Make birthdays, anniversaries, and thank-yous unforgettable with a private website personalized with their
+              name, favorite photos, heartfelt messages, memory timelines, reason cards, shayari, and a surprise ending!
+            </p>
+            <ul class="service-checklist">
+              <li>Unique private shareable link</li>
+              <li>Animated opening screen &amp; photo gallery</li>
+              <li>Typewriter letter &amp; custom shayari</li>
+              <li>Interactive memory &amp; reason cards</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section class="section pitch-section" id="pitch">
+      <div class="section-container">
+
+        <div class="pitch-card reveal-on-scroll">
+
+          <div class="pitch-bg-glow" aria-hidden="true"></div>
+
+          <div class="pitch-header">
+            <span class="pitch-tag">COLLABORATE &amp; CREATE</span>
+            <h2 class="pitch-title">Open For Paid Projects &amp; Collaborations</h2>
+          </div>
+
+          <div class="pitch-content">
+            <p class="pitch-lead">
+              🚀 <strong>Turn Your Ideas Into Something Extraordinary!</strong>
+            </p>
+            <p class="pitch-body">
+              Need a website for your business, brand or startup? I can help turn your ideas into reality with a website
+              tailored to your needs.
+            </p>
+            <p class="pitch-body pitch-romantic">
+              ❤️ <strong>Make your loved ones feel extra special!</strong> A birthday wish or anniversary message is
+              lovely, but why not make it unforgettable? 🎁 Imagine sending your partner or loved one a personalized
+              website featuring their name, favourite photos, heartfelt messages, memories and a special surprise, all
+              through a unique link! 💖
+            </p>
+            <p class="pitch-body">
+              ✨ <strong>Every website can be customized</strong> to match your idea and preferences.
+            </p>
+            <p class="pitch-body pitch-closing">
+              📩 <strong>DM or message me for inquiries and paid projects. Let's build something meaningful
+                together!</strong>
+            </p>
+          </div>
+
+          <div class="pitch-action">
+            <a href="#contact" class="btn btn-primary btn-large">
+              <span>Message Me</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section portfolio-section" id="portfolio">
+      <div class="section-container">
+
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">SELECTED WORKS</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-title-line"></div>
+          <p class="section-subtitle">A showcase of bespoke emotional experiences and full-stack AI platforms crafted
+            with modern web technologies.</p>
+        </div>
+
+        <div class="portfolio-list">
+          <article class="project-card reveal-on-scroll">
+
+            <div class="project-visual">
+              <div class="project-img-wrapper img-placeholder-container">
+                <img src="./assets/images/Screenshot (243).png" alt="Personalized Birthday Surprise Website preview"
+                  class="project-img fallback-image" loading="lazy">
+                <div class="img-fallback-placeholder" aria-hidden="true">
+                  <div class="placeholder-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                      <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                      <polyline points="21 15 16 10 5 21"></polyline>
+                    </svg>
+                  </div>
+                  <h4 class="placeholder-title">Personalized Birthday Website</h4>
+                  <span class="placeholder-instruction">Preview Slot: assets/images/project1.jpg</span>
+                  <span class="placeholder-badge">💖 Interactive Demo</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div class="project-label">DEMO PROJECT • CLIENT FAVORITE</div>
+              <h3 class="project-title">Personalized Birthday Surprise Website</h3>
+
+              <p class="project-description">
+                A personalized birthday website crafted with an animated opening screen, interactive photo gallery,
+                typewriter love letter, reason cards, custom shayari, and a surprise ending. Designed to transform
+                heartfelt memories and wishes into a lasting, emotional digital gift that runs smoothly on any device.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-chip">HTML5</span>
+                <span class="tech-chip">CSS3</span>
+                <span class="tech-chip">JavaScript</span>
+                <span class="tech-chip">CSS Animations</span>
+              </div>
+
+              <div class="project-buttons">
+                <a href="https://sgs-demo-5511.vercel.app/" class="btn btn-primary" target="_blank"
+                  rel="noopener noreferrer">
+                  <span>Live Demo</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+          </article>
+          <article class="project-card project-card-reverse reveal-on-scroll">
+
+            <div class="project-visual">
+              <div class="project-img-wrapper img-placeholder-container">
+                <img src="./assets/images/Screenshot (244).png" alt="SGS AI Powered Interview Practice Platform preview"
+                  class="project-img fallback-image" loading="lazy">
+                <div class="img-fallback-placeholder" aria-hidden="true">
+                  <div class="placeholder-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                      <polyline points="2 17 12 22 22 17"></polyline>
+                      <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                  </div>
+                  <h4 class="placeholder-title">SGS: AI Interview Platform</h4>
+                  <span class="placeholder-instruction">Preview Slot: assets/images/project2.jpg</span>
+                  <span class="placeholder-badge">🤖 Full Stack AI App</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div class="project-label">FULL STACK AI APPLICATION • LIVE</div>
+              <h3 class="project-title">SGS: AI Powered Interview Practice Platform</h3>
+
+              <p class="project-description">
+                An intelligent mock interview practice platform engineered to help job candidates simulate real
+                technical and behavioral interviews. Features customizable interview configurations (job roles,
+                experience levels, target companies), real-time speech recognition for voice answers via Web Speech API,
+                instant per-question AI review and scoring, detailed performance feedback summaries, and interview
+                transcript archives powered by Google Gemini API and a full-stack backend.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-chip">React</span>
+                <span class="tech-chip">Node.js</span>
+                <span class="tech-chip">Express.js</span>
+                <span class="tech-chip">MongoDB</span>
+                <span class="tech-chip">Google Gemini API</span>
+                <span class="tech-chip">Web Speech API</span>
+                <span class="tech-chip">Tailwind CSS</span>
+                <span class="tech-chip">Render &amp; Vercel</span>
+              </div>
+
+              <div class="project-buttons">
+                <a href="https://sgs-ai-interview-self.vercel.app/" class="btn btn-primary" target="_blank"
+                  rel="noopener noreferrer">
+                  <span>Live Demo</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/Gauravsaha07/SGS-AI-Interview" class="btn btn-outline" target="_blank"
+                  rel="noopener noreferrer">
+                  <span>Source Code</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">Let's build something meaningful together 🚀</h2>
+          <div class="section-title-line"></div>
+          <p class="section-subtitle">Have a website idea, need a custom gift surprise, or want to hire me for
+            full-stack &amp; AI web work? Reach out directly or fill out the form below!</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="contact-info-col reveal-on-scroll">
+
+            <h3 class="contact-info-title">Direct Contact &amp; Socials</h3>
+            <p class="contact-info-desc">
+              I'm always active and quick to respond. Whether you prefer email, WhatsApp, or social messaging, feel free
+              to connect!
+            </p>
+
+            <div class="contact-cards-list">
+
+              <a href="mailto:gauravsaha362@gmail.com" class="contact-card-item">
+                <div class="contact-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span class="contact-label">EMAIL ADDRESS</span>
+                  <span class="contact-value">gauravsaha362@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+918839014534" class="contact-card-item">
+                <div class="contact-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span class="contact-label">PHONE</span>
+                  <span class="contact-value">+91 88390 14534</span>
+                </div>
+              </a>
+
+              <a href="https://wa.me/918839014534?text=Hi%20Gaurav,%20I%20am%20interested%20in%20discussing%20a%20website%20project!"
+                class="contact-card-item" target="_blank" rel="noopener noreferrer">
+                <div class="contact-card-icon contact-whatsapp-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span class="contact-label">WHATSAPP</span>
+                  <span class="contact-value">+91 88390 14534 (Quick Chat)</span>
+                </div>
+              </a>
+
+              <div class="contact-card-item non-clickable">
+                <div class="contact-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-card-text">
+                  <span class="contact-label">LOCATION</span>
+                  <span class="contact-value">Ujjain, Madhya Pradesh, India (Available Worldwide)</span>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="social-links-wrap">
+              <span class="social-heading">FIND ME ONLINE</span>
+              <div class="social-badges">
+                <a href="https://github.com/Gauravsaha07/" target="_blank" rel="noopener noreferrer"
+                  class="social-badge" aria-label="GitHub Profile">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/gaurav-saha-2b805a36b/" target="_blank" rel="noopener noreferrer"
+                  class="social-badge" aria-label="LinkedIn Profile">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                  <span>LinkedIn</span>
+                </a>
+
+                <a href="https://instagram.com/sgs_gaurav_builds_" target="_blank" rel="noopener noreferrer"
+                  class="social-badge" aria-label="Instagram Profile">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                  <span>Instagram</span>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="contact-form-col reveal-on-scroll">
+            <div class="form-card">
+              <h3 class="form-title">Send a Quick Message</h3>
+              <p class="form-subtitle">Fill in the details below and select your preferred method to send.</p>
+
+              <form id="contactForm" class="contact-form" novalidate>
+
+                <div class="form-group">
+                  <label for="senderName" class="form-label">Your Name <span class="required-star">*</span></label>
+                  <input type="text" id="senderName" name="senderName" class="form-input"
+                    placeholder="e.g. Rahul Sharma" required>
+                  <span class="form-error" id="nameError">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="senderEmail" class="form-label">Your Email <span class="required-star">*</span></label>
+                  <input type="email" id="senderEmail" name="senderEmail" class="form-input"
+                    placeholder="e.g. rahul@example.com" required>
+                  <span class="form-error" id="emailError">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="projectType" class="form-label">Project Type</label>
+                  <select id="projectType" name="projectType" class="form-input form-select">
+                    <option value="Personalized Surprise Website">Personalized Surprise Website 💖</option>
+                    <option value="Business / Brand Website">Business / Brand Website 🚀</option>
+                    <option value="AI-Powered Web Solution">AI-Powered Web Solution 🤖</option>
+                    <option value="Full Stack Web App">Full Stack Web Application 💻</option>
+                    <option value="General Inquiry / Collaboration">General Inquiry / Collaboration ✨</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="senderMessage" class="form-label">Message / Details <span
+                      class="required-star">*</span></label>
+                  <textarea id="senderMessage" name="senderMessage" rows="4" class="form-input form-textarea"
+                    placeholder="Tell me about your project, timeline, or idea..." required></textarea>
+                  <span class="form-error" id="messageError">Please write a brief message.</span>
+                </div>
+
+                <div class="form-actions">
+                  <button type="button" id="btnSendEmail" class="btn btn-primary btn-submit">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="22" y1="2" x2="11" y2="13"></line>
+                      <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                    <span>Send via Email</span>
+                  </button>
+
+                  <button type="button" id="btnSendWhatsApp" class="btn btn-outline btn-whatsapp">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                      </path>
+                    </svg>
+                    <span>Send via WhatsApp</span>
+                  </button>
+                </div>
+
+                <div class="form-status-msg" id="formStatusMsg" role="alert" aria-live="polite"></div>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <p class="footer-tagline">
+          &mdash; <strong>GAURAV SAHA</strong> | Freelance Full Stack Developer | AI-Powered Websites
+        </p>
+        <p class="footer-copyright">
+          &copy; <span id="currentYear"></span> GAURAV SAHA. Built with clean HTML, CSS &amp; JavaScript. All rights
+          reserved.
+        </p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/Gauravsaha07/" target="_blank" rel="noopener noreferrer" class="footer-social-icon"
+          aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/gaurav-saha-2b805a36b/" target="_blank" rel="noopener noreferrer"
+          class="footer-social-icon" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+
+        <a href="https://instagram.com/sgs_gaurav_builds_" target="_blank" rel="noopener noreferrer"
+          class="footer-social-icon" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+
+        <a href="mailto:gauravsaha362@gmail.com" class="footer-social-icon" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+          </svg>
+        </a>
+      </div>
+
+      <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <span>Back to Top</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <line x1="12" y1="19" x2="12" y2="5"></line>
+          <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+      </a>
+
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
